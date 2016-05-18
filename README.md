@@ -1,7 +1,7 @@
 # lghLoopViewPager
 loop,viewpager
 
-###使用示例
+###使用示例 (Demo)
 <pre>
 public class MainActivity extends Activity {  /** 如果继承A AppCompatActivity alertDialog 将不会全屏显示*/
 

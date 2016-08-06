@@ -202,6 +202,9 @@ public class MyViewPager {
                     /** 循环情况临界点的颜色恢复 */
                     if ((i % picnum) == (picnum - 1) && limitTemp == 0) {  /** 左滑 */
                         ((ImageView) pointContainer.getChildAt(0)).setImageResource(R.drawable.white_point);
+                        if(i==1 &&  pointContainer.getChildAt(0)!=null){
+                            ((ImageView) pointContainer.getChildAt(0)).setImageResource(R.drawable.white_point_xml);
+                        }
                     } else {
                         if (i >= picnum && i % picnum == 0) { /** 右滑 */
                             ((ImageView) pointContainer.getChildAt(picnum - 1)).setImageResource(R.drawable.white_point);
